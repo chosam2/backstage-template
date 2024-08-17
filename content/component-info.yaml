@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: ${{ values.name }}
   annotations:
-    github.com/project-slug: chosam2/backstage-template
+    github.com/project-slug: backstage-github-action
+    # github.com/project-slug: chosam2/backstage-template
     backstage.io/techdocs-ref: dir:.
     github.com/workflows: instance.yml
   title: '${{ values.name | dump }} / EC2 instance'
