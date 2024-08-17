@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: chosam2/backstage-template
     backstage.io/techdocs-ref: dir:.
+    github.com/workflows: instance.yml
   title: '${{ values.name | dump }} / EC2 instance'
   description: 'An example of a Instance Creation.'
 spec:
