@@ -66,6 +66,7 @@ spec:
         url: ./content
         values:
           name: ${{ parameters.InstanceName }}
+          defaultBranch: main
  
     - id: rename
       name: Rename solution and project files
@@ -83,6 +84,7 @@ spec:
         description: This repo is to create an ec2 instance ${{ parameters.InstanceName }} using backstage.
         repoUrl: ${{ parameters.repoUrl }}
         repoVisibility: public # or 'internal' or 'private'
+        defaultBranch: main
 
     - id: register
       name: Registering the new Component
